@@ -8,10 +8,13 @@ def waitthere(time, window):
     window.wait_variable(var)
 
 def drawShape(listofEdges, listofVertexes, canvasName):
+    idItems = []
     for edge in listofEdges:
-        drawEdge(edge, canvasName, "black")
+        idItems += drawEdge(edge, canvasName, "black")
     for vertex in listofVertexes:
-        drawVertex(vertex, canvasName, "white")
+        idItems += drawVertex(vertex, canvasName, "white")
+
+    return idItems
 
 
 
