@@ -7,6 +7,7 @@ from tkinter.filedialog import askopenfilename, asksaveasfilename
 
 
 numberOfNodes = 0
+AllItems = []
 listAllItems = {} # dic chua tat cac item duoc tao trong canv
 flag = "nameFunction"
 points = [] # ve duong thang neu points chua hai diem
@@ -38,6 +39,11 @@ class point():
 def openFile():
     global  listofEdges
     global  listofVertexes
+    global AllItems
+    listofVertexes = []
+    listofEdges = []
+    for  item in AllItems:
+        canv.delete(item)
     filepath = askopenfilename(
         filetypes=[("Text Files", "*.txt"), ("All Files", "*.*")]
     )
@@ -66,7 +72,7 @@ def openFile():
             listofEdges.append(edge(point1, point2, int(textWeight)))
         print(listofEdges)
 
-    noName.drawShape(listofEdges, listofVertexes, canv)
+    AllItems = noName.drawShape(listofEdges, listofVertexes, canv)
 
     window.title(f"Graph - {filepath}")
 
@@ -151,6 +157,8 @@ def clear():
     numberOfNodes = 0
     for  item in listAllItems:
         canv.delete(item)
+    for  item in AllItems:
+        canv.delete(item)
     listAllItems.clear()
     flag = "nameFunction"
     points.clear()
@@ -177,7 +185,6 @@ def connectVertexes():
 
 def solve(eventorigin):
     global numberOfNodes
-    print(eventorigin)
     if flag == "AddVertex":
         createVertex(eventorigin.x, eventorigin.y, 10, canv, numberOfNodes)
         listofVertexes.append(vertex(eventorigin.x, eventorigin.y, numberOfNodes, {}))
