@@ -42,6 +42,8 @@ def openFile():
     global AllItems
     listofVertexes = []
     listofEdges = []
+    for  item in listAllItems:
+        canv.delete(item)
     for  item in AllItems:
         canv.delete(item)
     filepath = askopenfilename(
