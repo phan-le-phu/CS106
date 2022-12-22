@@ -1,7 +1,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![screen-shot](./images/screen-shot.png)
 
 The final project, I have built for the CS106 course. It helps to visualize how an algorithm(Prim, Kruskal, Dijkstra) works on an input graph.
 
@@ -28,7 +28,7 @@ Installing python 3.x on your machine.
    ```sh
    git clone https://github.com/phan-le-phu/CS106.git
    ```
-2. Move to project folder
+2. Change the current working director
    ```sh
    cd ./CS106
    ```
@@ -40,3 +40,16 @@ Installing python 3.x on your machine.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+
+Below are some demos of the features of this project.
+
+1. Draw a graph
+![draw-graph](https://media.giphy.com/media/s27A4KiyY0BExHO46K/giphy.gif)
+2. Save and open a graph
+![open-and-save](https://media.giphy.com/media/M38cxIVIC2dKS0xXlP/giphy.gif)
+3. Run the Prim algorithm on the input graph
+![prim](https://media.giphy.com/media/klhK8AFGXGXwdazkAk/giphy.gif)
+4. Run the Kruskal algorithm on the input graph
+![kruskal](https://media.giphy.com/media/rvImK4upov27rGyvKA/giphy.gif)
+5. Run the Dijkstra algorithm on the input graph
+![dijkstra](https://media.giphy.com/media/dZHpEE3jFzTLFNxFa0/giphy.gif)
