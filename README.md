@@ -44,7 +44,7 @@ Installing python 3.x on your machine.
 Below are some demos of the features of this project.
 
 1. Draw a graph
-![draw-graph](https://media.giphy.com/media/s27A4KiyY0BExHO46K/giphy.gif)
+<img src="https://media.giphy.com/media/s27A4KiyY0BExHO46K/giphy.gif" width="1405" height="724" />
 2. Save and open a graph
 ![open-and-save](https://media.giphy.com/media/M38cxIVIC2dKS0xXlP/giphy.gif)
 3. Run the Prim algorithm on the input graph
