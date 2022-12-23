@@ -42,14 +42,13 @@ Installing python 3.x on your machine.
 ## Usage
 
 Below are some demos of the features of this project.
-
-1. Draw a graph
+Draw a graph
 ![](https://media.giphy.com/media/s27A4KiyY0BExHO46K/giphy.gif)
-2. Save and open a graph
+Save and open a graph
 ![](https://media.giphy.com/media/M38cxIVIC2dKS0xXlP/giphy.gif)
-3. Run the Prim algorithm on the input graph
+Run the Prim algorithm on the input graph
 ![](https://media.giphy.com/media/klhK8AFGXGXwdazkAk/giphy.gif)
-4. Run the Kruskal algorithm on the input graph
+Run the Kruskal algorithm on the input graph
 ![](https://media.giphy.com/media/rvImK4upov27rGyvKA/giphy.gif)
-5. Run the Dijkstra algorithm on the input graph
+Run the Dijkstra algorithm on the input graph
 ![](https://media.giphy.com/media/dZHpEE3jFzTLFNxFa0/giphy.gif)
